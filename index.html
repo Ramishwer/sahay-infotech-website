@@ -1,144 +1,435 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="TechVision - Professional software development and digital solutions company">
+  <title>Home | TechVision - Digital Solutions</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">Portfolio</div>
-            <ul class="nav-links">
-                <li><a href="#hero">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </nav>
-    </header>
 
-    <main>
-        <section id="hero">
-            <h1>Hi, I'm <span>Ram Ishwer Kumar</span></h1>
-            <p>Java Backend Developer</p>
-            <a href="#experience" class="btn">View My Experience</a>
-        </section>
+  <!-- HEADER & NAVIGATION -->
+  <header>
+    <nav>
+      <div class="logo">
+        <div class="logo-icon">T</div>
+        <span>TechVision</span>
+      </div>
+      
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link active">Home</a>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link">Company <i class="fas fa-chevron-down"></i></a>
+          <ul class="dropdown-menu">
+            <li><a href="pages/about.html">About</a></li>
+            <li><a href="pages/mission-vision-values.html">Mission, Vision & Values</a></li>
+            <li><a href="pages/why-choose-us.html">Why Choose Us</a></li>
+            <li><a href="pages/faq.html">FAQ</a></li>
+          </ul>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link">Services <i class="fas fa-chevron-down"></i></a>
+          <ul class="dropdown-menu">
+            <li><a href="pages/software-development.html">Software Development</a></li>
+            <li><a href="pages/website-development.html">Website Development</a></li>
+            <li><a href="pages/mobile-app-development.html">Mobile App Development</a></li>
+            <li><a href="pages/blockchain-development.html">Blockchain Development</a></li>
+            <li><a href="pages/ui-ux-designing.html">UI/UX & Graphics Design</a></li>
+            <li><a href="pages/digital-marketing.html">Digital Marketing</a></li>
+          </ul>
+        </li>
+        
+        <li class="nav-item">
+          <a href="pages/industries.html" class="nav-link">Industries</a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="pages/portfolio.html" class="nav-link">Portfolio</a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="pages/case-studies.html" class="nav-link">Case Studies</a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="pages/blog.html" class="nav-link">Blog</a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="pages/contact.html" class="nav-link">Contact Us</a>
+        </li>
+      </ul>
+      
+      <button class="hamburger" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
 
-        <section id="about">
-            <h2>About Me</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>I am a dedicated Java Backend Developer with 3 years of experience in designing and developing scalable backend systems. I specialize in Microservices architecture and have a strong command over Java technologies and cloud platforms.</p>
-                    <div class="skills">
-                        <span class="skill-tag">Core Java</span>
-                        <span class="skill-tag">Spring Boot</span>
-                        <span class="skill-tag">JPA / Hibernate</span>
-                        <span class="skill-tag">Microservices</span>
-                        <span class="skill-tag">Kafka</span>
-                        <span class="skill-tag">MySQL</span>
-                        <span class="skill-tag">PostgreSQL</span>
-                        <span class="skill-tag">AWS</span>
-                        <span class="skill-tag">Docker</span>
-                        <span class="skill-tag">GitHub</span>
-                    </div>
-                </div>
-            </div>
-        </section>
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="container" style="display: flex; align-items: center; justify-content: space-between; gap: 3rem;">
+      <div class="hero-content">
+        <h1 class="hero-title">Transform Your Business with Digital Excellence</h1>
+        <p class="hero-subtitle">We deliver innovative solutions that drive growth, innovation, and success for forward-thinking companies worldwide.</p>
+        <div class="hero-buttons">
+          <a href="pages/contact.html" class="btn btn-primary">Get Started Today</a>
+          <a href="pages/portfolio.html" class="btn btn-secondary">View Our Work</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #2563eb20, #1e40af20); border-radius: 12px; display: flex; align-items: center; justify-content: center;">
+          <i class="fas fa-rocket" style="font-size: 100px; color: var(--primary); opacity: 0.8;"></i>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        <section id="experience">
-            <h2>Work Experience</h2>
-            <div class="experience-container">
-                <div class="experience-card">
-                    <h3>Bedge Tech Service</h3>
-                    <p class="role">Java Backend Developer</p>
-                    <p class="date">Oct 2025 - Present</p>
-                </div>
-                <div class="experience-card">
-                    <h3>56 N software Pvt Ltd</h3>
-                    <p class="role">Java Backend Developer</p>
-                    <p class="date">Feb 2025 - June 2025</p>
-                </div>
-                <div class="experience-card">
-                    <h3>Minterminds</h3>
-                    <p class="role">Java Backend Developer</p>
-                    <p class="date">March 2024 - Jan 2025</p>
-                </div>
-                <div class="experience-card">
-                    <h3>Virtuoso Netsoft Pvt Ltd</h3>
-                    <p class="role">Java Backend Developer</p>
-                    <p class="date">Sept 2022 - Feb 2024</p>
-                </div>
-            </div>
-        </section>
+  <!-- FEATURES SECTION -->
+  <section style="background: var(--light);">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Why Choose TechVision?</h2>
+        <p class="section-subtitle">We combine expertise, innovation, and customer-centric approach to deliver exceptional results</p>
+      </div>
+      
+      <div class="grid-4">
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-lightbulb"></i></div>
+          <h3>Innovation First</h3>
+          <p>Cutting-edge technologies and creative solutions tailored to your unique needs.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-users"></i></div>
+          <h3>Expert Team</h3>
+          <p>Experienced developers and designers with proven track record of success.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-chart-line"></i></div>
+          <h3>Proven Results</h3>
+          <p>Delivering measurable business growth and digital transformation for clients.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-headset"></i></div>
+          <h3>24/7 Support</h3>
+          <p>Dedicated support team available round the clock to assist you.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        <section id="projects">
-            <h2>Key Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-info">
-                        <h3>IDBI GST</h3>
-                        <p><strong>Domain: Banking</strong></p>
-                        <p>Developed for Bedge Tech Service. A comprehensive GST solution tailored for the banking sector.</p>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-info">
-                        <h3>Wohoo GiftBrandtz</h3>
-                        <p><strong>Domain: Giftcards</strong></p>
-                        <p>Developed for 56 N Software Pvt Ltd. A digital gifting platform managing gift card lifecycles.</p>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-info">
-                        <h3>Goev</h3>
-                        <p><strong>Domain: Logistics</strong></p>
-                        <p>Developed for Minterminds. A logistics management system optimizing fleet operations.</p>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-info">
-                        <h3>RCS / RBM</h3>
-                        <p><strong>Domain: Revenue & Billing</strong></p>
-                        <p>Developed for Virtuoso Netsoft. A robust system for revenue assurance and billing management.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+  <!-- SERVICES PREVIEW SECTION -->
+  <section>
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Our Core Services</h2>
+        <p class="section-subtitle">Comprehensive solutions to power your digital transformation</p>
+      </div>
+      
+      <div class="grid-3">
+        <div class="card">
+          <div style="width: 100%; height: 200px; background: linear-gradient(135deg, #2563eb30, #1e40af30); display: flex; align-items: center; justify-content: center;">
+            <i class="fas fa-code" style="font-size: 60px; color: var(--primary); opacity: 0.6;"></i>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Software Development</h3>
+            <p class="card-text">Custom software solutions built with latest technologies to solve your business challenges.</p>
+            <a href="pages/software-development.html" class="btn btn-primary btn-small">Learn More</a>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div style="width: 100%; height: 200px; background: linear-gradient(135deg, #f5950b30, #d97706a0); display: flex; align-items: center; justify-content: center;">
+            <i class="fas fa-globe" style="font-size: 60px; color: #f59e0b; opacity: 0.6;"></i>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Website Development</h3>
+            <p class="card-text">Responsive, fast, and SEO-optimized websites that convert visitors into customers.</p>
+            <a href="pages/website-development.html" class="btn btn-primary btn-small">Learn More</a>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div style="width: 100%; height: 200px; background: linear-gradient(135deg, #10b98130, #059669a0); display: flex; align-items: center; justify-content: center;">
+            <i class="fas fa-mobile-alt" style="font-size: 60px; color: #10b981; opacity: 0.6;"></i>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Mobile App Development</h3>
+            <p class="card-text">Native and cross-platform mobile apps that engage users and drive business growth.</p>
+            <a href="pages/mobile-app-development.html" class="btn btn-primary btn-small">Learn More</a>
+          </div>
+        </div>
 
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <div class="contact-container">
-                <div style="text-align: center; margin-bottom: 2rem;">
-                    <p style="font-size: 1.2rem; color: var(--text-color); margin-bottom: 0.5rem;">
-                        Email: <a href="mailto:ramk17091999@gmail.com" style="color: var(--primary-color); font-weight: bold;">ramk17091999@gmail.com</a>
-                    </p>
-                    <p style="font-size: 1.2rem; color: var(--text-color);">
-                        Mobile: <a href="tel:+918252240857" style="color: var(--primary-color); font-weight: bold;">+91 8252240857</a>
-                    </p>
-                </div>
-                <form>
-                    <input type="text" placeholder="Name" required>
-                    <input type="email" placeholder="Email" required>
-                    <textarea placeholder="Message" required></textarea>
-                    <button type="submit" class="btn">Send Message</button>
-                </form>
-            </div>
-        </section>
-    </main>
+        <div class="card">
+          <div style="width: 100%; height: 200px; background: linear-gradient(135deg, #ef444430, #dc263580); display: flex; align-items: center; justify-content: center;">
+            <i class="fas fa-cube" style="font-size: 60px; color: #ef4444; opacity: 0.6;"></i>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Blockchain Development</h3>
+            <p class="card-text">Secure and transparent blockchain solutions for next-generation applications.</p>
+            <a href="pages/blockchain-development.html" class="btn btn-primary btn-small">Learn More</a>
+          </div>
+        </div>
 
-    <footer>
-        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
-    </footer>
+        <div class="card">
+          <div style="width: 100%; height: 200px; background: linear-gradient(135deg, #8b5cf630, #7c3aed80); display: flex; align-items: center; justify-content: center;">
+            <i class="fas fa-palette" style="font-size: 60px; color: #8b5cf6; opacity: 0.6;"></i>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">UI/UX & Graphics Design</h3>
+            <p class="card-text">Beautiful, intuitive designs that enhance user experience and brand identity.</p>
+            <a href="pages/ui-ux-designing.html" class="btn btn-primary btn-small">Learn More</a>
+          </div>
+        </div>
 
-    <script src="script.js"></script>
+        <div class="card">
+          <div style="width: 100%; height: 200px; background: linear-gradient(135deg, #06b6d430, #0891b2a0); display: flex; align-items: center; justify-content: center;">
+            <i class="fas fa-bullhorn" style="font-size: 60px; color: #06b6d4; opacity: 0.6;"></i>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Digital Marketing</h3>
+            <p class="card-text">Strategic digital marketing campaigns that drive visibility and customer acquisition.</p>
+            <a href="pages/digital-marketing.html" class="btn btn-primary btn-small">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS SECTION -->
+  <section style="background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%); color: white;">
+    <div class="container">
+      <div class="grid-4" style="text-align: center;">
+        <div>
+          <h3 style="color: white; font-size: 2.5rem; margin-bottom: 0.5rem;">500+</h3>
+          <p style="color: rgba(255,255,255,0.9);">Projects Completed</p>
+        </div>
+        <div>
+          <h3 style="color: white; font-size: 2.5rem; margin-bottom: 0.5rem;">200+</h3>
+          <p style="color: rgba(255,255,255,0.9);">Happy Clients</p>
+        </div>
+        <div>
+          <h3 style="color: white; font-size: 2.5rem; margin-bottom: 0.5rem;">50+</h3>
+          <p style="color: rgba(255,255,255,0.9);">Team Members</p>
+        </div>
+        <div>
+          <h3 style="color: white; font-size: 2.5rem; margin-bottom: 0.5rem;">15+</h3>
+          <p style="color: rgba(255,255,255,0.9);">Years Experience</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA SECTION -->
+  <section style="background: var(--light); text-align: center;">
+    <div class="container">
+      <h2 class="section-title">Ready to Transform Your Business?</h2>
+      <p class="section-subtitle" style="max-width: 600px;">Let's discuss your project and how we can help you achieve your business goals with innovative digital solutions.</p>
+      <a href="pages/contact.html" class="btn btn-primary">Start Your Project Now</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>About TechVision</h4>
+        <p>Leading provider of innovative digital solutions and software development services for businesses worldwide.</p>
+        <div class="social-links">
+          <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      
+      <div class="footer-section">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="pages/about.html">About Us</a></li>
+          <li><a href="pages/why-choose-us.html">Why Choose Us</a></li>
+          <li><a href="pages/portfolio.html">Portfolio</a></li>
+          <li><a href="pages/case-studies.html">Case Studies</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-section">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="pages/software-development.html">Software Development</a></li>
+          <li><a href="pages/website-development.html">Website Development</a></li>
+          <li><a href="pages/mobile-app-development.html">Mobile Apps</a></li>
+          <li><a href="pages/digital-marketing.html">Digital Marketing</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-section">
+        <h4>Contact</h4>
+        <p>Email: info@techvision.com</p>
+        <p>Phone: +1 (555) 123-4567</p>
+        <p>Address: 123 Tech Street, San Francisco, CA 94105</p>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2026 TechVision. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
+
+<section id="home" class="hero">
+  <div class="hero-content">
+    <h1 class="hero-title">Transform Your Business with Digital Excellence</h1>
+    <p class="hero-subtitle">We deliver innovative solutions that drive growth and success for forward-thinking companies.</p>
+    <div class="hero-buttons">
+      <button class="btn btn-primary" onclick="scrollToContact()">Get Started Today</button>
+      <button class="btn btn-secondary">Learn More</button>
+    </div>
+  </div>
+  <div class="hero-animation">
+    <div class="floating-box"></div>
+  </div>
+</section>
+
+<section id="services" class="services-section">
+  <div class="container">
+    <h2 class="section-title">Our Services</h2>
+    <p class="section-subtitle">Comprehensive solutions for your digital needs</p>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-icon"><i class="fas fa-globe"></i></div>
+        <h3>Web Development</h3>
+        <p>Custom websites and web applications built with cutting-edge technologies.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><i class="fas fa-mobile-alt"></i></div>
+        <h3>Mobile Apps</h3>
+        <p>Native and cross-platform mobile applications for iOS and Android.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><i class="fas fa-palette"></i></div>
+        <h3>UI/UX Design</h3>
+        <p>Beautiful, intuitive designs that engage users and drive conversions.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><i class="fas fa-cloud"></i></div>
+        <h3>Cloud Solutions</h3>
+        <p>Scalable infrastructure and deployment on leading cloud platforms.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="about-section">
+  <div class="container">
+    <div class="about-content">
+      <div class="about-text">
+        <h2 class="section-title">About NovaTech Solutions</h2>
+        <p>We are a team of experienced developers, designers, and strategists dedicated to delivering exceptional digital solutions. With over 10 years in the industry, we've helped hundreds of businesses transform their digital presence and achieve their goals.</p>
+        <ul class="about-list">
+          <li><i class="fas fa-check"></i> 500+ Projects Completed</li>
+          <li><i class="fas fa-check"></i> 200+ Satisfied Clients</li>
+          <li><i class="fas fa-check"></i> 50+ Expert Team Members</li>
+          <li><i class="fas fa-check"></i> 24/7 Support Available</li>
+        </ul>
+      </div>
+      <div class="about-image">
+        <div class="image-placeholder"><i class="fas fa-laptop"></i></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="portfolio" class="portfolio-section">
+  <div class="container">
+    <h2 class="section-title">Recent Projects</h2>
+    <p class="section-subtitle">Showcasing our latest work and success stories</p>
+    <div class="portfolio-grid">
+      <div class="portfolio-card">
+        <div class="portfolio-image"><i class="fas fa-image"></i></div>
+        <h3>E-Commerce Platform</h3>
+        <p>Full-stack e-commerce solution with payment integration.</p>
+      </div>
+      <div class="portfolio-card">
+        <div class="portfolio-image"><i class="fas fa-image"></i></div>
+        <h3>SaaS Application</h3>
+        <p>Cloud-based project management tool for enterprises.</p>
+      </div>
+      <div class="portfolio-card">
+        <div class="portfolio-image"><i class="fas fa-image"></i></div>
+        <h3>Mobile Fitness App</h3>
+        <p>Cross-platform fitness tracking and coaching application.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact-section">
+  <div class="container">
+    <h2 class="section-title">Get In Touch</h2>
+    <p class="section-subtitle">Let's start your next digital project</p>
+    <form class="contact-form" onsubmit="submitForm(event)">
+      <div class="form-group">
+        <input type="text" placeholder="Your Name" required>
+      </div>
+      <div class="form-group">
+        <input type="email" placeholder="Your Email" required>
+      </div>
+      <div class="form-group">
+        <input type="text" placeholder="Project Title" required>
+      </div>
+      <div class="form-group">
+        <textarea placeholder="Tell us about your project..." rows="5" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-content">
+    <div class="footer-section">
+      <h4>NovaTech Solutions</h4>
+      <p>Transforming businesses through digital innovation.</p>
+    </div>
+    <div class="footer-section">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h4>Follow Us</h4>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2026 NovaTech Solutions. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>

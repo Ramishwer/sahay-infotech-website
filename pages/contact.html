@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | TechVision</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div class="logo"><div class="logo-icon">T</div><span>TechVision</span></div>
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="../index.html" class="nav-link">Home</a></li>
+        <li class="nav-item dropdown"><a href="#" class="nav-link">Company <i class="fas fa-chevron-down"></i></a><ul class="dropdown-menu"><li><a href="about.html">About</a></li><li><a href="mission-vision-values.html">Mission, Vision & Values</a></li><li><a href="why-choose-us.html">Why Choose Us</a></li><li><a href="faq.html">FAQ</a></li></ul></li>
+        <li class="nav-item dropdown"><a href="#" class="nav-link">Services <i class="fas fa-chevron-down"></i></a><ul class="dropdown-menu"><li><a href="software-development.html">Software Development</a></li><li><a href="website-development.html">Website Development</a></li><li><a href="mobile-app-development.html">Mobile App Development</a></li><li><a href="blockchain-development.html">Blockchain Development</a></li><li><a href="ui-ux-designing.html">UI/UX & Graphics Design</a></li><li><a href="digital-marketing.html">Digital Marketing</a></li></ul></li>
+        <li class="nav-item"><a href="industries.html" class="nav-link">Industries</a></li>
+        <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+        <li class="nav-item"><a href="case-studies.html" class="nav-link">Case Studies</a></li>
+        <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+        <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
+      </ul>
+      <button class="hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></button>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="container" style="display: flex; align-items: center; gap: 3rem;">
+      <div class="hero-content">
+        <h1 class="hero-title">Get In Touch</h1>
+        <p class="hero-subtitle">We'd love to hear from you. Let's discuss how we can help you achieve your goals.</p>
+      </div>
+      <div class="hero-image">
+        <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #2563eb20, #1e40af20); border-radius: 12px; display: flex; align-items: center; justify-content: center;">
+          <i class="fas fa-envelope" style="font-size: 100px; color: var(--primary); opacity: 0.8;"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section><div class="container"><div style="display: grid; grid-template-columns: 2fr 1fr; gap: 3rem; margin-top: 3rem;"><div><h2 class="section-title">Send Us a Message</h2><form id="contact-form" onsubmit="handleFormSubmit(event, 'contact-form')"><div style="margin-bottom: 1.5rem;"><label for="name" style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--text-dark);">Full Name</label><input type="text" id="name" name="name" required style="width: 100%; padding: 0.75rem; border: 1px solid var(--border-color); border-radius: 6px; font-size: 1rem; font-family: inherit;"></div><div style="margin-bottom: 1.5rem;"><label for="email" style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--text-dark);">Email Address</label><input type="email" id="email" name="email" required style="width: 100%; padding: 0.75rem; border: 1px solid var(--border-color); border-radius: 6px; font-size: 1rem; font-family: inherit;"></div><div style="margin-bottom: 1.5rem;"><label for="phone" style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--text-dark);">Phone (Optional)</label><input type="tel" id="phone" name="phone" style="width: 100%; padding: 0.75rem; border: 1px solid var(--border-color); border-radius: 6px; font-size: 1rem; font-family: inherit;"></div><div style="margin-bottom: 1.5rem;"><label for="subject" style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--text-dark);">Subject</label><input type="text" id="subject" name="subject" required style="width: 100%; padding: 0.75rem; border: 1px solid var(--border-color); border-radius: 6px; font-size: 1rem; font-family: inherit;"></div><div style="margin-bottom: 1.5rem;"><label for="message" style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--text-dark);">Message</label><textarea id="message" name="message" rows="6" required style="width: 100%; padding: 0.75rem; border: 1px solid var(--border-color); border-radius: 6px; font-size: 1rem; font-family: inherit; resize: vertical;"></textarea></div><button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button><div id="form-message" style="margin-top: 1rem; padding: 1rem; border-radius: 6px; display: none; text-align: center;"></div></form></div><div><h2 class="section-title" style="margin-top: 0;">Contact Information</h2><div style="background: var(--light); padding: 1.5rem; border-radius: 12px; margin-bottom: 1.5rem;"><div style="display: flex; align-items: flex-start; gap: 1rem; margin-bottom: 1.5rem;"><i class="fas fa-map-marker-alt" style="font-size: 1.5rem; color: var(--primary); margin-top: 0.25rem;"></i><div><h4 style="margin-bottom: 0.25rem;">Address</h4><p style="color: var(--text-light);">123 Tech Street<br>San Francisco, CA 94105<br>United States</p></div></div><div style="display: flex; align-items: flex-start; gap: 1rem; margin-bottom: 1.5rem;"><i class="fas fa-phone" style="font-size: 1.5rem; color: var(--primary); margin-top: 0.25rem;"></i><div><h4 style="margin-bottom: 0.25rem;">Phone</h4><p style="color: var(--text-light);"><a href="tel:+15551234567" style="color: var(--primary); text-decoration: none;">+1 (555) 123-4567</a></p></div></div><div style="display: flex; align-items: flex-start; gap: 1rem;"><i class="fas fa-envelope" style="font-size: 1.5rem; color: var(--primary); margin-top: 0.25rem;"></i><div><h4 style="margin-bottom: 0.25rem;">Email</h4><p style="color: var(--text-light);"><a href="mailto:info@techvision.com" style="color: var(--primary); text-decoration: none;">info@techvision.com</a></p></div></div></div><h3 style="margin-bottom: 1rem;">Business Hours</h3><div style="background: var(--light); padding: 1.5rem; border-radius: 12px;"><p style="margin-bottom: 0.5rem;"><strong>Monday - Friday:</strong> 9:00 AM - 6:00 PM EST</p><p style="margin-bottom: 0.5rem;"><strong>Saturday:</strong> 10:00 AM - 4:00 PM EST</p><p><strong>Sunday:</strong> Closed</p></div></div></div></section>
+
+  <section style="background: var(--light);"><div class="container"><h2 class="section-title">Location</h2><div style="background: linear-gradient(135deg, #2563eb20, #1e40af20); border-radius: 12px; height: 400px; display: flex; align-items: center; justify-content: center; margin-top: 2rem;"><i class="fas fa-map" style="font-size: 100px; color: var(--primary); opacity: 0.5;"></i></div><p style="text-align: center; margin-top: 1rem; color: var(--text-light);">Interactive map would be displayed here</p></section>
+
+  <section style="background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%); color: white; text-align: center;"><div class="container"><h2 class="section-title" style="color: white;">Follow Us On Social Media</h2><p class="section-subtitle" style="color: rgba(255,255,255,0.9); max-width: 600px;">Stay connected and follow us for the latest updates and insights.</p><div style="display: flex; gap: 1.5rem; justify-content: center; margin-top: 1.5rem;"><a href="#" style="display: flex; align-items: center; justify-content: center; width: 50px; height: 50px; background: rgba(255,255,255,0.2); border-radius: 50%; color: white; font-size: 1.5rem; transition: all 0.3s;"><i class="fab fa-facebook-f"></i></a><a href="#" style="display: flex; align-items: center; justify-content: center; width: 50px; height: 50px; background: rgba(255,255,255,0.2); border-radius: 50%; color: white; font-size: 1.5rem; transition: all 0.3s;"><i class="fab fa-twitter"></i></a><a href="#" style="display: flex; align-items: center; justify-content: center; width: 50px; height: 50px; background: rgba(255,255,255,0.2); border-radius: 50%; color: white; font-size: 1.5rem; transition: all 0.3s;"><i class="fab fa-linkedin-in"></i></a><a href="#" style="display: flex; align-items: center; justify-content: center; width: 50px; height: 50px; background: rgba(255,255,255,0.2); border-radius: 50%; color: white; font-size: 1.5rem; transition: all 0.3s;"><i class="fab fa-instagram"></i></a></div></div></section>
+
+  <footer><div class="footer-content"><div class="footer-section"><h4>About TechVision</h4><p>Leading provider of innovative digital solutions and software development services for businesses worldwide.</p><div class="social-links"><a href="#"><i class="fab fa-facebook-f"></i></a><a href="#"><i class="fab fa-twitter"></i></a><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fab fa-instagram"></i></a></div></div><div class="footer-section"><h4>Company</h4><ul><li><a href="about.html">About Us</a></li><li><a href="why-choose-us.html">Why Choose Us</a></li><li><a href="portfolio.html">Portfolio</a></li><li><a href="case-studies.html">Case Studies</a></li></ul></div><div class="footer-section"><h4>Services</h4><ul><li><a href="software-development.html">Software Development</a></li><li><a href="website-development.html">Website Development</a></li><li><a href="mobile-app-development.html">Mobile Apps</a></li><li><a href="digital-marketing.html">Digital Marketing</a></li></ul></div><div class="footer-section"><h4>Contact</h4><p>Email: info@techvision.com</p><p>Phone: +1 (555) 123-4567</p><p>Address: 123 Tech Street, San Francisco, CA 94105</p></div></div><div class="footer-bottom"><p>&copy; 2026 TechVision. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p></div></footer>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>
