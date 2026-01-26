@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect width="400" height="300" fill="#ef4444"/>
+  <rect x="30" y="30" width="340" height="240" rx="8" fill="#dc2626"/>
+  <circle cx="90" cy="70" r="30" fill="#fff" opacity="0.2"/>
+  <circle cx="330" cy="250" r="35" fill="#fff" opacity="0.15"/>
+  <rect x="100" y="110" width="200" height="120" rx="8" fill="#fff" opacity="0.15" stroke="#fff" stroke-width="2"/>
+  <line x1="115" y1="135" x2="285" y2="135" stroke="#fff" stroke-width="2" opacity="0.3"/>
+  <line x1="115" y1="155" x2="285" y2="155" stroke="#fff" stroke-width="2" opacity="0.3"/>
+  <line x1="115" y1="175" x2="255" y2="175" stroke="#fff" stroke-width="2" opacity="0.3"/>
+  <text x="200" y="195" font-size="18" font-weight="bold" fill="#fff" text-anchor="middle">Healthcare</text>
+  <text x="200" y="218" font-size="12" fill="#fff" text-anchor="middle" opacity="0.8">Portal</text>
+</svg>

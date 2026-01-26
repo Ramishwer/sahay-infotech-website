@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect width="400" height="300" fill="#10b981"/>
+  <rect x="30" y="30" width="340" height="240" rx="8" fill="#059669"/>
+  <circle cx="100" cy="80" r="25" fill="#fff" opacity="0.2"/>
+  <circle cx="320" cy="240" r="30" fill="#fff" opacity="0.15"/>
+  <circle cx="100" cy="150" r="15" fill="#fff" opacity="0.3"/>
+  <circle cx="150" cy="180" r="12" fill="#fff" opacity="0.25"/>
+  <circle cx="200" cy="140" r="18" fill="#fff" opacity="0.35"/>
+  <circle cx="260" cy="170" r="14" fill="#fff" opacity="0.28"/>
+  <text x="200" y="155" font-size="18" font-weight="bold" fill="#fff" text-anchor="middle">Mobile</text>
+  <text x="200" y="180" font-size="18" font-weight="bold" fill="#fff" text-anchor="middle">Fitness</text>
+  <text x="200" y="200" font-size="12" fill="#fff" text-anchor="middle" opacity="0.8">Tracking App</text>
+</svg>

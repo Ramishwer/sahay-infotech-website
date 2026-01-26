@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect width="400" height="300" fill="#2563eb"/>
+  <rect x="30" y="30" width="340" height="240" rx="8" fill="#1e40af"/>
+  <circle cx="70" cy="70" r="25" fill="#fff" opacity="0.2"/>
+  <circle cx="350" cy="250" r="30" fill="#fff" opacity="0.15"/>
+  <path d="M100 150 L200 100 L300 140 L350 110" stroke="#fff" stroke-width="2" fill="none" opacity="0.3"/>
+  <text x="200" y="160" font-size="20" font-weight="bold" fill="#fff" text-anchor="middle">E-Commerce</text>
+  <text x="200" y="185" font-size="12" fill="#fff" text-anchor="middle" opacity="0.8">Platform</text>
+</svg>

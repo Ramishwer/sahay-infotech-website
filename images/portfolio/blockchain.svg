@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect width="400" height="300" fill="#8b5cf6"/>
+  <rect x="30" y="30" width="340" height="240" rx="8" fill="#7c3aed"/>
+  <circle cx="70" cy="90" r="28" fill="#fff" opacity="0.2"/>
+  <circle cx="360" cy="230" r="32" fill="#fff" opacity="0.15"/>
+  <polygon points="200,120 240,160 280,140 260,180 290,210 250,190 220,220 200,180" fill="#fff" opacity="0.25"/>
+  <circle cx="200" cy="160" r="4" fill="#fff"/>
+  <circle cx="240" cy="160" r="4" fill="#fff"/>
+  <circle cx="260" cy="180" r="4" fill="#fff"/>
+  <text x="200" y="255" font-size="18" font-weight="bold" fill="#fff" text-anchor="middle">Blockchain</text>
+  <text x="200" y="278" font-size="12" fill="#fff" text-anchor="middle" opacity="0.8">Marketplace</text>
+</svg>
