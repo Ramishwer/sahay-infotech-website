@@ -1,0 +1,71 @@
+<svg width="600" height="500" viewBox="0 0 600 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="500" fill="#0f1419"/>
+  
+  <!-- Problem vs Solution comparison -->
+  <g transform="translate(0, 0)">
+    <!-- LEFT SIDE: BEFORE -->
+    <text x="130" y="40" font-size="18" fill="#ec4899" font-weight="bold">Before</text>
+    
+    <!-- Broken components -->
+    <g transform="translate(80, 120)">
+      <!-- Broken system -->
+      <circle cx="30" cy="30" r="25" fill="none" stroke="#ec4899" stroke-width="2" opacity="0.6"/>
+      <line x1="10" y1="10" x2="50" y2="50" stroke="#ec4899" stroke-width="2" opacity="0.4"/>
+      <line x1="50" y1="10" x2="10" y2="50" stroke="#ec4899" stroke-width="2" opacity="0.4"/>
+      <text x="10" y="115" font-size="12" fill="#ec4899">Manual</text>
+      <text x="15" y="130" font-size="12" fill="#ec4899">Processes</text>
+    </g>
+    
+    <g transform="translate(80, 230)">
+      <!-- Slow performance -->
+      <path d="M 10 10 L 10 40 L 50 40 L 50 10" fill="none" stroke="#ec4899" stroke-width="2" opacity="0.6"/>
+      <line x1="15" y1="35" x2="45" y2="35" stroke="#ec4899" stroke-width="1" opacity="0.5"/>
+      <text x="5" y="115" font-size="12" fill="#ec4899">Low Speed</text>
+      <text x="5" y="130" font-size="12" fill="#ec4899">& Efficiency</text>
+    </g>
+    
+    <!-- Challenges listed -->
+    <g transform="translate(80, 360)">
+      <text x="0" y="0" font-size="11" fill="#ec4899">• Costly</text>
+      <text x="0" y="18" font-size="11" fill="#ec4899">• Error-prone</text>
+      <text x="0" y="36" font-size="11" fill="#ec4899">• Slow growth</text>
+    </g>
+  </g>
+  
+  <!-- Arrow in middle -->
+  <g transform="translate(300, 250)">
+    <line x1="-40" y1="0" x2="40" y2="0" stroke="#8b5cf6" stroke-width="2"/>
+    <polygon points="45,0 35,-5 35,5" fill="#8b5cf6"/>
+  </g>
+  
+  <!-- RIGHT SIDE: AFTER -->
+  <g transform="translate(300, 0)">
+    <text x="130" y="40" font-size="18" fill="#10b981" font-weight="bold">After</text>
+    
+    <!-- Working solutions -->
+    <g transform="translate(80, 120)">
+      <!-- Integrated system -->
+      <circle cx="30" cy="30" r="25" fill="none" stroke="#10b981" stroke-width="2"/>
+      <circle cx="30" cy="30" r="18" fill="none" stroke="#10b981" stroke-width="1" opacity="0.4"/>
+      <circle cx="30" cy="30" r="6" fill="#10b981"/>
+      <text x="0" y="115" font-size="12" fill="#10b981">Automated</text>
+      <text x="15" y="130" font-size="12" fill="#10b981">Workflows</text>
+    </g>
+    
+    <g transform="translate(80, 230)">
+      <!-- Fast performance -->
+      <path d="M 10 40 L 10 10 L 50 10 L 50 40" fill="none" stroke="#10b981" stroke-width="2"/>
+      <line x1="15" y1="15" x2="45" y2="15" stroke="#10b981" stroke-width="1.5"/>
+      <text x="5" y="115" font-size="12" fill="#10b981">High Speed</text>
+      <text x="5" y="130" font-size="12" fill="#10b981">& Efficiency</text>
+    </g>
+    
+    <!-- Benefits listed -->
+    <g transform="translate(80, 360)">
+      <text x="0" y="0" font-size="11" fill="#10b981">• Cost-effective</text>
+      <text x="0" y="18" font-size="11" fill="#10b981">• Reliable</text>
+      <text x="0" y="36" font-size="11" fill="#10b981">• Rapid scaling</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,97 @@
+<svg width="600" height="500" viewBox="0 0 600 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="500" fill="#0f1419"/>
+  
+  <!-- Office environment - open workspace -->
+  <rect x="40" y="180" width="520" height="220" fill="#1f2937" stroke="#ec4899" stroke-width="2" rx="10"/>
+  
+  <!-- Desk partition 1 -->
+  <rect x="60" y="160" width="180" height="240" fill="#2d3748" opacity="0.5"/>
+  <!-- Desk partition 2 -->
+  <rect x="360" y="160" width="180" height="240" fill="#2d3748" opacity="0.5"/>
+  
+  <!-- Person 1 - Left workstation, focused -->
+  <circle cx="100" cy="200" r="23" fill="#d4a574"/>
+  <!-- Hair -->
+  <path d="M 77 188 Q 77 162 100 162 Q 123 162 123 188" fill="#3d2817"/>
+  <!-- Business casual shirt -->
+  <rect x="84" y="228" width="32" height="52" fill="#f59e0b" rx="4"/>
+  <!-- Arms typing -->
+  <rect x="60" y="240" width="24" height="12" fill="#d4a574" rx="5"/>
+  <rect x="116" y="240" width="24" height="12" fill="#d4a574" rx="5"/>
+  <!-- Hands -->
+  <circle cx="58" cy="246" r="5" fill="#d4a574"/>
+  <circle cx="142" cy="246" r="5" fill="#d4a574"/>
+  <!-- Monitor on desk -->
+  <rect x="65" y="285" width="70" height="45" fill="#1e293b" stroke="#64748b" stroke-width="2" rx="3"/>
+  <rect x="68" y="288" width="64" height="38" fill="#0f172a"/>
+  <circle cx="100" cy="305" r="2.5" fill="#3b82f6"/>
+  <!-- Monitor stand -->
+  <rect x="95" y="330" width="10" height="15" fill="#64748b" rx="2"/>
+  <!-- Keyboard -->
+  <rect x="70" y="345" width="60" height="12" fill="#374151" stroke="#64748b" stroke-width="1" rx="2"/>
+  
+  <!-- Person 2 - Center (standing, gesturing) -->
+  <circle cx="300" cy="190" r="25" fill="#d4a574"/>
+  <!-- Hair longer -->
+  <path d="M 275 177 Q 275 148 300 148 Q 325 148 325 177" fill="#2d2416"/>
+  <!-- Dress/professional top -->
+  <rect x="282" y="220" width="36" height="60" fill="#6366f1" rx="4"/>
+  <!-- Arms gesturing -->
+  <rect x="250" y="235" width="32" height="15" fill="#d4a574" rx="7"/>
+  <rect x="318" y="235" width="32" height="15" fill="#d4a574" rx="7"/>
+  <!-- Hands -->
+  <circle cx="247" cy="243" r="6" fill="#d4a574"/>
+  <circle cx="353" cy="243" r="6" fill="#d4a574"/>
+  <!-- Legs -->
+  <rect x="291" y="280" width="8" height="38" fill="#2d3748" rx="3"/>
+  <rect x="310" y="280" width="8" height="38" fill="#2d3748" rx="3"/>
+  
+  <!-- Person 3 - Right workstation -->
+  <circle cx="500" cy="205" r="22" fill="#d4a574"/>
+  <!-- Hair -->
+  <path d="M 478 194 Q 478 169 500 169 Q 522 169 522 194" fill="#1a0f0a"/>
+  <!-- Casual shirt -->
+  <rect x="485" y="232" width="30" height="50" fill="#10b981" rx="4"/>
+  <!-- Arms on desk -->
+  <rect x="463" y="243" width="22" height="11" fill="#d4a574" rx="5"/>
+  <rect x="515" y="243" width="22" height="11" fill="#d4a574" rx="5"/>
+  <!-- Hands -->
+  <circle cx="460" cy="248" r="5" fill="#d4a574"/>
+  <circle cx="540" cy="248" r="5" fill="#d4a574"/>
+  <!-- Laptop on desk -->
+  <rect x="470" y="290" width="55" height="38" fill="#1e293b" stroke="#64748b" stroke-width="1.5" rx="2"/>
+  <rect x="472" y="292" width="51" height="32" fill="#0f172a"/>
+  <circle cx="498" cy="310" r="2" fill="#3b82f6"/>
+  
+  <!-- Floating communication symbols -->
+  <g opacity="0.3">
+    <!-- Icon between Person 1 and 2 -->
+    <circle cx="190" cy="220" r="18" fill="none" stroke="#ec4899" stroke-width="2"/>
+    <path d="M 185 218 L 195 218 M 190 213 L 190 223 L 195 221" fill="#ec4899"/>
+  </g>
+  
+  <g opacity="0.3">
+    <!-- Icon between Person 2 and 3 -->
+    <circle cx="410" cy="215" r="18" fill="none" stroke="#ec4899" stroke-width="2"/>
+    <path d="M 405 213 L 415 213 M 410 208 L 410 218 L 415 216" fill="#ec4899"/>
+  </g>
+  
+  <!-- Clock on wall -->
+  <circle cx="550" cy="200" r="18" fill="#2d3748" stroke="#64748b" stroke-width="2"/>
+  <circle cx="550" cy="200" r="3" fill="#64748b"/>
+  <line x1="550" y1="200" x2="550" y2="186" stroke="#64748b" stroke-width="2"/>
+  <line x1="550" y1="200" x2="560" y2="200" stroke="#64748b" stroke-width="2"/>
+  
+  <!-- Plants for modern office touch -->
+  <g>
+    <rect x="35" y="360" width="12" height="25" fill="#92400e" rx="2"/>
+    <ellipse cx="41" cy="355" rx="12" ry="15" fill="#059669"/>
+    <ellipse cx="32" cy="350" rx="8" ry="12" fill="#10b981"/>
+    <ellipse cx="50" cy="350" rx="8" ry="12" fill="#10b981"/>
+  </g>
+  
+  <!-- Productivity indicator -->
+  <rect x="100" y="420" width="400" height="4" fill="#2d3748" rx="2"/>
+  <rect x="100" y="420" width="280" height="4" fill="#10b981" rx="2"/>
+</svg>

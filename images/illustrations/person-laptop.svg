@@ -1,0 +1,62 @@
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#f8f9fa"/>
+  
+  <!-- Desk -->
+  <rect x="100" y="280" width="400" height="30" fill="#8b6f47" rx="4"/>
+  <rect x="80" y="310" width="440" height="20" fill="#6b5535"/>
+  
+  <!-- Desk legs -->
+  <rect x="120" y="310" width="20" height="80" fill="#5a4a2a"/>
+  <rect x="460" y="310" width="20" height="80" fill="#5a4a2a"/>
+  
+  <!-- Laptop base -->
+  <rect x="150" y="240" width="300" height="40" fill="#333" rx="4"/>
+  
+  <!-- Laptop screen -->
+  <rect x="160" y="140" width="280" height="110" fill="#1a1a2e" rx="4" stroke="#333" stroke-width="2"/>
+  
+  <!-- Screen display -->
+  <rect x="170" y="150" width="260" height="90" fill="#4a90e2" opacity="0.8"/>
+  <line x1="190" y1="165" x2="390" y2="165" stroke="#fff" stroke-width="2" opacity="0.6"/>
+  <line x1="190" y1="180" x2="390" y2="180" stroke="#fff" stroke-width="2" opacity="0.6"/>
+  <line x1="190" y1="195" x2="350" y2="195" stroke="#fff" stroke-width="2" opacity="0.6"/>
+  <line x1="190" y1="210" x2="370" y2="210" stroke="#fff" stroke-width="2" opacity="0.6"/>
+  <line x1="190" y1="225" x2="330" y2="225" stroke="#fff" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Person's head -->
+  <circle cx="200" cy="80" r="35" fill="#d4a574"/>
+  
+  <!-- Hair -->
+  <path d="M 165 80 Q 165 50 200 45 Q 235 50 235 80" fill="#3d2817"/>
+  
+  <!-- Face features -->
+  <circle cx="190" cy="75" r="4" fill="#333"/>
+  <circle cx="210" cy="75" r="4" fill="#333"/>
+  <path d="M 190 90 Q 200 95 210 90" stroke="#333" stroke-width="2" fill="none"/>
+  
+  <!-- Body -->
+  <ellipse cx="200" cy="160" rx="45" ry="55" fill="#ec4899"/>
+  
+  <!-- Arms -->
+  <ellipse cx="140" cy="145" rx="25" ry="50" fill="#d4a574" transform="rotate(-30 140 145)"/>
+  <ellipse cx="260" cy="145" rx="25" ry="50" fill="#d4a574" transform="rotate(30 260 145)"/>
+  
+  <!-- Hands -->
+  <circle cx="120" cy="180" r="15" fill="#d4a574"/>
+  <circle cx="280" cy="180" r="15" fill="#d4a574"/>
+  
+  <!-- Legs -->
+  <rect x="185" y="210" width="15" height="70" fill="#2a2a3e" rx="7"/>
+  <rect x="200" y="210" width="15" height="70" fill="#2a2a3e" rx="7"/>
+  
+  <!-- Shoes -->
+  <ellipse cx="192.5" cy="285" rx="12" ry="8" fill="#1a1a1a"/>
+  <ellipse cx="207.5" cy="285" rx="12" ry="8" fill="#1a1a1a"/>
+  
+  <!-- Mouse -->
+  <ellipse cx="380" cy="270" rx="18" ry="12" fill="#333"/>
+  
+  <!-- Keyboard hint -->
+  <rect x="180" y="265" width="140" height="12" fill="#444" rx="2"/>
+</svg>

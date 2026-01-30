@@ -1,0 +1,71 @@
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#f0f4f8"/>
+  
+  <!-- Desk 1 (left) -->
+  <rect x="30" y="260" width="180" height="25" fill="#8b6f47" rx="4"/>
+  <rect x="20" y="285" width="200" height="15" fill="#6b5535"/>
+  
+  <!-- Desk 2 (right) -->
+  <rect x="390" y="260" width="180" height="25" fill="#8b6f47" rx="4"/>
+  <rect x="380" y="285" width="200" height="15" fill="#6b5535"/>
+  
+  <!-- Desk legs -->
+  <rect x="50" y="285" width="15" height="70" fill="#5a4a2a"/>
+  <rect x="195" y="285" width="15" height="70" fill="#5a4a2a"/>
+  <rect x="410" y="285" width="15" height="70" fill="#5a4a2a"/>
+  <rect x="555" y="285" width="15" height="70" fill="#5a4a2a"/>
+  
+  <!-- Laptop 1 -->
+  <rect x="50" y="190" width="160" height="70" fill="#333" rx="4"/>
+  <rect x="60" y="105" width="140" height="85" fill="#1a1a2e" rx="4" stroke="#333" stroke-width="2"/>
+  <rect x="70" y="115" width="120" height="65" fill="#4a90e2" opacity="0.8"/>
+  
+  <!-- Laptop 2 -->
+  <rect x="410" y="190" width="160" height="70" fill="#333" rx="4"/>
+  <rect x="420" y="105" width="140" height="85" fill="#1a1a2e" rx="4" stroke="#333" stroke-width="2"/>
+  <rect x="430" y="115" width="120" height="65" fill="#ec4899" opacity="0.8"/>
+  
+  <!-- Person 1 -->
+  <!-- Head -->
+  <circle cx="100" cy="60" r="28" fill="#d4a574"/>
+  <path d="M 72 60 Q 72 38 100 35 Q 128 38 128 60" fill="#3d2817"/>
+  <circle cx="92" cy="58" r="3" fill="#333"/>
+  <circle cx="108" cy="58" r="3" fill="#333"/>
+  <path d="M 92 68 Q 100 72 108 68" stroke="#333" stroke-width="2" fill="none"/>
+  
+  <!-- Body -->
+  <ellipse cx="100" cy="120" rx="32" ry="45" fill="#8b5cf6"/>
+  <!-- Arms -->
+  <ellipse cx="65" cy="110" rx="18" ry="40" fill="#d4a574" transform="rotate(-25 65 110)"/>
+  <ellipse cx="135" cy="110" rx="18" ry="40" fill="#d4a574" transform="rotate(25 135 110)"/>
+  <!-- Legs -->
+  <rect x="92" y="162" width="10" height="55" fill="#2a2a3e" rx="5"/>
+  <rect x="104" y="162" width="10" height="55" fill="#2a2a3e" rx="5"/>
+  <!-- Shoes -->
+  <ellipse cx="97" cy="220" rx="8" ry="6" fill="#1a1a1a"/>
+  <ellipse cx="109" cy="220" rx="8" ry="6" fill="#1a1a1a"/>
+  
+  <!-- Person 2 -->
+  <!-- Head -->
+  <circle cx="460" cy="55" r="28" fill="#d4a574"/>
+  <path d="M 432 55 Q 432 33 460 30 Q 488 33 488 55" fill="#6b4423"/>
+  <circle cx="452" cy="53" r="3" fill="#333"/>
+  <circle cx="468" cy="53" r="3" fill="#333"/>
+  <path d="M 452 63 Q 460 67 468 63" stroke="#333" stroke-width="2" fill="none"/>
+  
+  <!-- Body -->
+  <ellipse cx="460" cy="115" rx="32" ry="45" fill="#ec4899"/>
+  <!-- Arms -->
+  <ellipse cx="425" cy="105" rx="18" ry="40" fill="#d4a574" transform="rotate(-25 425 105)"/>
+  <ellipse cx="495" cy="105" rx="18" ry="40" fill="#d4a574" transform="rotate(25 495 105)"/>
+  <!-- Legs -->
+  <rect x="452" y="157" width="10" height="55" fill="#2a2a3e" rx="5"/>
+  <rect x="464" y="157" width="10" height="55" fill="#2a2a3e" rx="5"/>
+  <!-- Shoes -->
+  <ellipse cx="457" cy="215" rx="8" ry="6" fill="#1a1a1a"/>
+  <ellipse cx="469" cy="215" rx="8" ry="6" fill="#1a1a1a"/>
+  
+  <!-- Connection line (collaboration) -->
+  <line x1="210" y1="150" x2="390" y2="150" stroke="#8b5cf6" stroke-width="2" stroke-dasharray="5,5" opacity="0.5"/>
+</svg>

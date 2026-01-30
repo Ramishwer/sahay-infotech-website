@@ -1,0 +1,81 @@
+<svg width="600" height="500" viewBox="0 0 600 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="500" fill="#0f1419"/>
+  
+  <!-- Meeting table -->
+  <rect x="80" y="280" width="440" height="20" fill="#6366f1" rx="4"/>
+  <rect x="70" y="300" width="460" height="150" fill="#1f2937" stroke="#6366f1" stroke-width="2" rx="8"/>
+  
+  <!-- Person 1 - Left side -->
+  <circle cx="130" cy="150" r="25" fill="#d4a574"/>
+  <!-- Head hair -->
+  <path d="M 105 140 Q 105 115 130 115 Q 155 115 155 140" fill="#2d2416"/>
+  <!-- Body -->
+  <rect x="110" y="180" width="40" height="60" fill="#3b82f6" rx="4"/>
+  <!-- Arms -->
+  <rect x="85" y="190" width="25" height="15" fill="#d4a574" rx="6"/>
+  <rect x="150" y="190" width="25" height="15" fill="#d4a574" rx="6"/>
+  <!-- Hands -->
+  <circle cx="82" cy="198" r="6" fill="#d4a574"/>
+  <circle cx="176" cy="198" r="6" fill="#d4a574"/>
+  <!-- Legs -->
+  <rect x="112" y="240" width="8" height="40" fill="#2d3748" rx="3"/>
+  <rect x="130" y="240" width="8" height="40" fill="#2d3748" rx="3"/>
+  
+  <!-- Person 2 - Center (taller/prominent) -->
+  <circle cx="300" cy="140" r="28" fill="#d4a574"/>
+  <!-- Head hair -->
+  <path d="M 272 128 Q 272 100 300 100 Q 328 100 328 128" fill="#1a0f0a"/>
+  <!-- Body -->
+  <rect x="280" y="175" width="40" height="70" fill="#ec4899" rx="4"/>
+  <!-- Arms raised (presenting) -->
+  <rect x="250" y="180" width="30" height="18" fill="#d4a574" rx="7"/>
+  <rect x="320" y="180" width="30" height="18" fill="#d4a574" rx="7"/>
+  <!-- Hands -->
+  <circle cx="248" cy="190" r="7" fill="#d4a574"/>
+  <circle cx="352" cy="190" r="7" fill="#d4a574"/>
+  <!-- Legs -->
+  <rect x="291" y="245" width="9" height="35" fill="#2d3748" rx="3"/>
+  <rect x="310" y="245" width="9" height="35" fill="#2d3748" rx="3"/>
+  
+  <!-- Person 3 - Right side -->
+  <circle cx="470" cy="155" r="24" fill="#d4a574"/>
+  <!-- Head hair -->
+  <path d="M 446 145 Q 446 122 470 122 Q 494 122 494 145" fill="#3d2817"/>
+  <!-- Body -->
+  <rect x="455" y="185" width="38" height="55" fill="#10b981" rx="4"/>
+  <!-- Arms -->
+  <rect x="430" y="195" width="25" height="14" fill="#d4a574" rx="6"/>
+  <rect x="493" y="195" width="25" height="14" fill="#d4a574" rx="6"/>
+  <!-- Hands -->
+  <circle cx="427" cy="202" r="6" fill="#d4a574"/>
+  <circle cx="520" cy="202" r="6" fill="#d4a574"/>
+  <!-- Legs -->
+  <rect x="458" y="240" width="8" height="40" fill="#2d3748" rx="3"/>
+  <rect x="476" y="240" width="8" height="40" fill="#2d3748" rx="3"/>
+  
+  <!-- Laptops on table -->
+  <!-- Laptop 1 -->
+  <rect x="90" y="310" width="50" height="35" fill="#1e293b" stroke="#64748b" stroke-width="2" rx="3"/>
+  <rect x="92" y="312" width="46" height="28" fill="#0f172a"/>
+  <circle cx="115" cy="325" r="3" fill="#6366f1"/>
+  
+  <!-- Laptop 2 -->
+  <rect x="275" y="305" width="55" height="40" fill="#1e293b" stroke="#64748b" stroke-width="2" rx="3"/>
+  <rect x="277" y="307" width="51" height="33" fill="#0f172a"/>
+  <circle cx="303" cy="322" r="3" fill="#6366f1"/>
+  
+  <!-- Laptop 3 -->
+  <rect x="450" y="315" width="50" height="30" fill="#1e293b" stroke="#64748b" stroke-width="2" rx="3"/>
+  <rect x="452" y="317" width="46" height="24" fill="#0f172a"/>
+  <circle cx="475" cy="327" r="3" fill="#6366f1"/>
+  
+  <!-- Speech bubble -->
+  <path d="M 280 60 Q 320 30 360 60 L 360 100 Q 320 120 280 100 Z" fill="#6366f1" opacity="0.2" stroke="#6366f1" stroke-width="2"/>
+  <circle cx="290" cy="80" r="3" fill="#6366f1"/>
+  <circle cx="300" cy="88" r="2.5" fill="#6366f1"/>
+  <circle cx="310" cy="85" r="2" fill="#6366f1"/>
+  
+  <!-- Decorative elements -->
+  <line x1="150" y1="420" x2="450" y2="420" stroke="#6366f1" stroke-width="1" opacity="0.3"/>
+</svg>

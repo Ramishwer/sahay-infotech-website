@@ -1,0 +1,80 @@
+<svg width="600" height="500" viewBox="0 0 600 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="500" fill="#0f1419"/>
+  
+  <!-- Training/Learning path -->
+  <g transform="translate(100, 150)">
+    <!-- Curved learning path -->
+    <path d="M 0 120 Q 40 100 60 60 Q 80 20 120 0" fill="none" stroke="#8b5cf6" stroke-width="3" opacity="0.6"/>
+    
+    <!-- Milestone circles -->
+    <circle cx="0" cy="120" r="12" fill="#8b5cf6"/>
+    <text x="-5" y="145" font-size="11" fill="#64748b">Start</text>
+    
+    <circle cx="60" cy="60" r="12" fill="#ec4899"/>
+    <text x="45" y="85" font-size="11" fill="#64748b">Progress</text>
+    
+    <circle cx="120" cy="0" r="12" fill="#10b981"/>
+    <text x="105" y="-10" font-size="11" fill="#64748b">Expert</text>
+  </g>
+  
+  <!-- Training modules -->
+  <g transform="translate(300, 80)">
+    <!-- Module 1 -->
+    <rect x="0" y="0" width="70" height="50" fill="none" stroke="#8b5cf6" stroke-width="2" rx="4"/>
+    <circle cx="35" cy="15" r="8" fill="none" stroke="#8b5cf6" stroke-width="1.5"/>
+    <line x1="10" y1="30" x2="60" y2="30" stroke="#8b5cf6" stroke-width="1"/>
+    <line x1="10" y1="40" x2="50" y2="40" stroke="#64748b" stroke-width="1" opacity="0.5"/>
+    <text x="-5" y="70" font-size="10" fill="#64748b">Fundamentals</text>
+    
+    <!-- Module 2 -->
+    <rect x="90" y="0" width="70" height="50" fill="none" stroke="#ec4899" stroke-width="2" rx="4"/>
+    <polygon points="135,10 145,20 125,20" fill="none" stroke="#ec4899" stroke-width="1.5"/>
+    <line x1="100" y1="35" x2="150" y2="35" stroke="#ec4899" stroke-width="1"/>
+    <line x1="100" y1="45" x2="140" y2="45" stroke="#64748b" stroke-width="1" opacity="0.5"/>
+    <text x="80" y="70" font-size="10" fill="#64748b">Intermediate</text>
+    
+    <!-- Module 3 -->
+    <rect x="180" y="0" width="70" height="50" fill="none" stroke="#10b981" stroke-width="2" rx="4"/>
+    <path d="M 215 8 L 220 18 L 215 28 Q 225 25 230 15 Q 225 15 220 15" fill="none" stroke="#10b981" stroke-width="1.5"/>
+    <line x1="190" y1="35" x2="240" y2="35" stroke="#10b981" stroke-width="1"/>
+    <line x1="190" y1="45" x2="230" y2="45" stroke="#64748b" stroke-width="1" opacity="0.5"/>
+    <text x="175" y="70" font-size="10" fill="#64748b">Advanced</text>
+  </g>
+  
+  <!-- Certification -->
+  <g transform="translate(370, 250)">
+    <circle cx="0" cy="0" r="50" fill="none" stroke="#fbbf24" stroke-width="2"/>
+    <polygon points="0,-35 10,-20 -10,-20" fill="#fbbf24"/>
+    <polygon points="0,-35 10,-20 -10,-20" fill="#fbbf24" transform="rotate(72 0 0)"/>
+    <polygon points="0,-35 10,-20 -10,-20" fill="#fbbf24" transform="rotate(144 0 0)"/>
+    <polygon points="0,-35 10,-20 -10,-20" fill="#fbbf24" transform="rotate(216 0 0)"/>
+    <polygon points="0,-35 10,-20 -10,-20" fill="#fbbf24" transform="rotate(288 0 0)"/>
+    <text x="-8" y="5" font-size="12" fill="#fbbf24" font-weight="bold">CERT</text>
+  </g>
+  
+  <!-- Skill badges -->
+  <g transform="translate(80, 340)">
+    <circle cx="0" cy="0" r="18" fill="none" stroke="#8b5cf6" stroke-width="2"/>
+    <text x="-6" y="5" font-size="14" fill="#8b5cf6" font-weight="bold">✓</text>
+    <text x="-20" y="25" font-size="11" fill="#64748b">Web Dev</text>
+  </g>
+  
+  <g transform="translate(200, 340)">
+    <circle cx="0" cy="0" r="18" fill="none" stroke="#ec4899" stroke-width="2"/>
+    <text x="-6" y="5" font-size="14" fill="#ec4899" font-weight="bold">✓</text>
+    <text x="-20" y="25" font-size="11" fill="#64748b">Mobile</text>
+  </g>
+  
+  <g transform="translate(320, 340)">
+    <circle cx="0" cy="0" r="18" fill="none" stroke="#10b981" stroke-width="2"/>
+    <text x="-6" y="5" font-size="14" fill="#10b981" font-weight="bold">✓</text>
+    <text x="-20" y="25" font-size="11" fill="#64748b">DevOps</text>
+  </g>
+  
+  <g transform="translate(440, 340)">
+    <circle cx="0" cy="0" r="18" fill="none" stroke="#fbbf24" stroke-width="2"/>
+    <text x="-6" y="5" font-size="14" fill="#fbbf24" font-weight="bold">✓</text>
+    <text x="-25" y="25" font-size="11" fill="#64748b">Cloud Arch</text>
+  </g>
+</svg>

@@ -3,10 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Learn about TechVision - our story, mission, and commitment to innovation">
-  <title>About Us | TechVision</title>
+  <meta name="description" content="Learn about Sahay InfoTech - our story, mission, and commitment to innovation">
+  <title>About Us | Sahay InfoTech</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="../css/style.css">
+  <style>
+    /* Leadership team avatar styles */
+    .team-avatar { width: 120px; height: 120px; object-fit: cover; border-radius: 50%; display: block; margin: 0 auto 1rem; box-shadow: 0 6px 18px rgba(15,20,25,0.12); border: 4px solid #fff; }
+    .card { background: #fff; border-radius: 12px; overflow: hidden; }
+    .card-content { padding: 1rem; }
+    .card-title { margin: 0 0 6px; }
+    .card-text { color: #475569; margin: 0; }
+  </style>
 </head>
 <body>
 
@@ -14,8 +22,8 @@
   <header>
     <nav>
       <div class="logo">
-        <div class="logo-icon">T</div>
-        <span>TechVision</span>
+        <div class="logo-icon">S</div>
+        <span>Sahay InfoTech</span>
       </div>
       
       <ul class="nav-menu">
@@ -60,11 +68,9 @@
         <li class="nav-item">
           <a href="blog.html" class="nav-link">Blog</a>
         </li>
-        
-        <li class="nav-item">
-          <a href="contact.html" class="nav-link">Contact Us</a>
-        </li>
       </ul>
+      
+      <a href="contact.html" class="btn btn-primary" style="margin-right: 1rem;">Contact Us</a>
       
       <button class="hamburger" onclick="toggleMenu()">
         <span></span>
@@ -78,11 +84,11 @@
   <section class="hero">
     <div class="container" style="display: flex; align-items: center; justify-content: space-between; gap: 3rem;">
       <div class="hero-content">
-        <h1 class="hero-title">About TechVision</h1>
+        <h1 class="hero-title">About Sahay InfoTech</h1>
         <p class="hero-subtitle">Pioneering digital innovation and transforming businesses with cutting-edge technology solutions since 2011.</p>
       </div>
       <div class="hero-image">
-        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop" alt="TechVision Company Culture" style="width: 100%; max-width: 500px; height: auto;">
+        <img src="../images/hero/about-hero.svg" alt="Sahay InfoTech Company Culture" style="width: 100%; max-width: 500px; height: auto;">
       </div>
     </div>
   </section>
@@ -93,18 +99,27 @@
       <div class="grid-2" style="align-items: center;">
         <div>
           <h2 class="section-title">Our Story</h2>
-          <p>TechVision was founded in 2011 by a group of passionate technologists who believed that great technology should be accessible to businesses of all sizes. What started as a small startup has grown into a leading digital solutions company serving clients across multiple continents.</p>
-          <p style="margin-top: 1rem;">We've evolved from developing simple websites to creating complex enterprise solutions, AI-powered applications, and blockchain-based systems. Our journey has been marked by continuous innovation, learning, and a commitment to delivering exceptional value to our clients.</p>
+          <p>Sahay InfoTech began in 2011 when a small group of technologists set out to make powerful technology accessible to businesses of all sizes.</p>
+
+          <p style="margin-top: 1rem;">What started as a modest web-development shop quickly grew into a full-service digital solutions company.</p>
+
+          <p style="margin-top: 1rem;">Over the years we've expanded into enterprise software, AI-driven applications, and blockchain solutions while staying focused on solving real business problems.</p>
+
+          <p style="margin-top: 1rem;">We've completed more than 500 projects across fintech, healthcare, e-commerce, and manufacturing, which helped us refine our processes and deliver reliable results.</p>
+
+          <p style="margin-top: 1rem;">Our team has grown from five developers to a diverse group of over 100 professionals across design, development, strategy, and support.</p>
+
+          <p style="margin-top: 1rem;">We partner closely with clients, prioritize transparency and communication, and invest in continuous learning and emerging technologies to stay ahead.</p>
         </div>
-        <div style="background: linear-gradient(135deg, #2563eb30, #1e40af30); border-radius: 12px; height: 400px; display: flex; align-items: center; justify-content: center;">
-          <i class="fas fa-history" style="font-size: 80px; color: var(--primary); opacity: 0.6;"></i>
+        <div style="text-align: center; margin-top: 2rem;">
+          <object data="../images/illustrations/team-collaboration.svg" type="image/svg+xml" style="max-width: 100%; width: 500px; height: auto; display: block; margin: 0 auto; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.2);"></object>
         </div>
       </div>
     </div>
   </section>
 
   <!-- TEAM SECTION -->
-  <section style="background: var(--light);">
+  <section style="background: white;">
     <div class="container">
       <div class="section-header">
         <h2 class="section-title">Our Leadership Team</h2>
@@ -113,46 +128,38 @@
       
       <div class="grid-4">
         <div class="card">
-          <div style="width: 100%; height: 250px; background: linear-gradient(135deg, #2563eb30, #1e40af30); display: flex; align-items: center; justify-content: center;">
-            <i class="fas fa-user-circle" style="font-size: 80px; color: var(--primary); opacity: 0.6;"></i>
-          </div>
-          <div class="card-content" style="text-align: center;">
-            <h3 class="card-title">John Smith</h3>
-            <p class="card-text" style="margin-bottom: 0; color: var(--primary); font-weight: 600;">CEO & Founder</p>
-            <p class="card-text">Visionary leader with 20+ years in tech industry</p>
+          <img src="../images/team/member-1.svg" alt="Shubham Gupta" class="team-avatar">
+          <div class="card-content" style="text-align: center; padding: 1rem;">
+            <h3 class="card-title">Shubham Gupta</h3>
+            <p class="card-text" style="margin: 6px 0 8px; color: var(--primary); font-weight: 600;">Chief Executive Officer</p>
+            <p class="card-text" style="margin: 0; color: #475569;">Leads company strategy and client relationships with a focus on growth.</p>
           </div>
         </div>
         
         <div class="card">
-          <div style="width: 100%; height: 250px; background: linear-gradient(135deg, #f5950b30, #d97706a0); display: flex; align-items: center; justify-content: center;">
-            <i class="fas fa-user-circle" style="font-size: 80px; color: #f59e0b; opacity: 0.6;"></i>
-          </div>
-          <div class="card-content" style="text-align: center;">
-            <h3 class="card-title">Sarah Johnson</h3>
-            <p class="card-text" style="margin-bottom: 0; color: var(--primary); font-weight: 600;">CTO</p>
-            <p class="card-text">Technology architect specializing in scalable systems</p>
+          <img src="../images/team/member-2.svg" alt="Ram Ishwer Kumar" class="team-avatar">
+          <div class="card-content" style="text-align: center; padding: 1rem;">
+            <h3 class="card-title">Ram Ishwer Kumar</h3>
+            <p class="card-text" style="margin: 6px 0 8px; color: var(--primary); font-weight: 600;">Chief Technology Officer</p>
+            <p class="card-text" style="margin: 0; color: #475569;">Heads architecture and technical direction across our product portfolio.</p>
           </div>
         </div>
         
         <div class="card">
-          <div style="width: 100%; height: 250px; background: linear-gradient(135deg, #10b98130, #059669a0); display: flex; align-items: center; justify-content: center;">
-            <i class="fas fa-user-circle" style="font-size: 80px; color: #10b981; opacity: 0.6;"></i>
-          </div>
-          <div class="card-content" style="text-align: center;">
-            <h3 class="card-title">Michael Chen</h3>
-            <p class="card-text" style="margin-bottom: 0; color: var(--primary); font-weight: 600;">COO</p>
-            <p class="card-text">Operations expert ensuring project success</p>
+          <img src="../images/team/member-3.svg" alt="Proney Dey" class="team-avatar">
+          <div class="card-content" style="text-align: center; padding: 1rem;">
+            <h3 class="card-title">Proney Dey</h3>
+            <p class="card-text" style="margin: 6px 0 8px; color: var(--primary); font-weight: 600;">Head of Engineering</p>
+            <p class="card-text" style="margin: 0; color: #475569;">Ensures delivery quality, processes, and engineering excellence across teams.</p>
           </div>
         </div>
         
         <div class="card">
-          <div style="width: 100%; height: 250px; background: linear-gradient(135deg, #8b5cf630, #7c3aed80); display: flex; align-items: center; justify-content: center;">
-            <i class="fas fa-user-circle" style="font-size: 80px; color: #8b5cf6; opacity: 0.6;"></i>
-          </div>
-          <div class="card-content" style="text-align: center;">
-            <h3 class="card-title">Emily Davis</h3>
-            <p class="card-text" style="margin-bottom: 0; color: var(--primary); font-weight: 600;">Head of Design</h3>
-            <p class="card-text">Creative leader driving user-centric design</p>
+          <img src="../images/team/member-4.svg" alt="Palavi Sharma" class="team-avatar">
+          <div class="card-content" style="text-align: center; padding: 1rem;">
+            <h3 class="card-title">Palavi Sharma</h3>
+            <p class="card-text" style="margin: 6px 0 8px; color: var(--primary); font-weight: 600;">Head of People</p>
+            <p class="card-text" style="margin: 0; color: #475569;">Drives talent, culture, and learning programs to support team growth.</p>
           </div>
         </div>
       </div>
@@ -202,46 +209,53 @@
   <footer>
     <div class="footer-content">
       <div class="footer-section">
-        <h4>About TechVision</h4>
+        <h4>About Sahay InfoTech</h4>
         <p>Leading provider of innovative digital solutions and software development services for businesses worldwide.</p>
         <div class="social-links">
-          <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
-          <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-          <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a><a href="#"><i class="fab fa-twitter"></i></a><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fab fa-instagram"></i></a>
         </div>
       </div>
-      
       <div class="footer-section">
-        <h4>Company</h4>
+        <h4>Quick Links</h4>
         <ul>
+          <li><a href="../index.html">Home</a></li>
           <li><a href="about.html">About Us</a></li>
-          <li><a href="why-choose-us.html">Why Choose Us</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="case-studies.html">Case Studies</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="faq.html">FAQs</a></li>
         </ul>
       </div>
-      
       <div class="footer-section">
         <h4>Services</h4>
         <ul>
           <li><a href="software-development.html">Software Development</a></li>
           <li><a href="website-development.html">Website Development</a></li>
           <li><a href="mobile-app-development.html">Mobile Apps</a></li>
+          <li><a href="ui-ux-designing.html">UI/UX Design</a></li>
           <li><a href="digital-marketing.html">Digital Marketing</a></li>
+          <li><a href="blockchain-development.html">Blockchain</a></li>
         </ul>
       </div>
-      
       <div class="footer-section">
-        <h4>Contact</h4>
-        <p>Email: info@techvision.com</p>
-        <p>Phone: +1 (555) 123-4567</p>
-        <p>Address: 123 Tech Street, San Francisco, CA 94105</p>
+        <h4>Legal & Info</h4>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="why-choose-us.html">Why Choose Us</a></li>
+          <li><a href="industries.html">Industries</a></li>
+          <li><a href="mission-vision-values.html">Mission & Vision</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
       </div>
     </div>
-    
     <div class="footer-bottom">
-      <p>&copy; 2026 TechVision. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+      <p>&copy; 2026 Sahay InfoTech. All rights reserved.</p>
+      <div>
+        <a href="#">Sitemap</a>
+        <span style="color: rgba(255, 255, 255, 0.3);">|</span>
+        <a href="#">Accessibility</a>
+      </div>
     </div>
   </footer>
 

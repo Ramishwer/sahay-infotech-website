@@ -250,6 +250,44 @@ function handleScrollButton() {
 window.addEventListener('load', handleScrollButton);
 
 // ===================================
+// DESKTOP DROPDOWN HOVER SUPPORT
+// ===================================
+
+// Add hover support for dropdowns on desktop
+function setupDesktopDropdowns() {
+  const dropdowns = document.querySelectorAll('.dropdown');
+  
+  dropdowns.forEach(dropdown => {
+    const toggle = dropdown.querySelector('.nav-link');
+    const menu = dropdown.querySelector('.dropdown-menu');
+    
+    if (!toggle || !menu) return;
+    
+    let hideTimer;
+    
+    // Hover in
+    dropdown.addEventListener('mouseenter', () => {
+      if (window.innerWidth > 768) {
+        clearTimeout(hideTimer);
+        dropdown.classList.add('hover-active');
+      }
+    });
+    
+    // Hover out
+    dropdown.addEventListener('mouseleave', () => {
+      if (window.innerWidth > 768) {
+        hideTimer = setTimeout(() => {
+          dropdown.classList.remove('hover-active');
+        }, 100);
+      }
+    });
+  });
+}
+
+window.addEventListener('load', setupDesktopDropdowns);
+window.addEventListener('resize', setupDesktopDropdowns);
+
+// ===================================
 // PAGE TRANSITION ANIMATION
 // ===================================
 

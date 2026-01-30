@@ -1,0 +1,27 @@
+<svg width="600" height="500" viewBox="0 0 600 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="500" fill="#0f1419"/>
+  
+  <!-- Growth chart upward trend -->
+  <g transform="translate(150, 250)">
+    <!-- Bars -->
+    <rect x="0" y="100" width="40" height="50" fill="#8b5cf6" opacity="0.6"/>
+    <rect x="50" y="70" width="40" height="80" fill="#8b5cf6" opacity="0.7"/>
+    <rect x="100" y="40" width="40" height="110" fill="#ec4899" opacity="0.7"/>
+    <rect x="150" y="10" width="40" height="140" fill="#ec4899" opacity="0.8"/>
+    
+    <!-- Trend line -->
+    <path d="M 20 100 L 70 70 L 120 40 L 170 10" stroke="#10b981" stroke-width="3" fill="none" stroke-linecap="round"/>
+    
+    <!-- Arrow pointing up -->
+    <polygon points="200,0 210,-15 190,-15" fill="#10b981"/>
+  </g>
+  
+  <!-- Percentage indicator -->
+  <text x="420" y="150" font-size="48" font-weight="bold" fill="#10b981">+125%</text>
+  <text x="420" y="190" font-size="16" fill="#64748b">Business Growth</text>
+  
+  <!-- Dollar sign -->
+  <circle cx="500" cy="380" r="40" fill="none" stroke="#fbbf24" stroke-width="2"/>
+  <text x="490" y="395" font-size="40" font-weight="bold" fill="#fbbf24">$</text>
+</svg>

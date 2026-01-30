@@ -1,0 +1,62 @@
+<svg width="600" height="500" viewBox="0 0 600 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="500" fill="#0f1419"/>
+  
+  <!-- Central innovation bulb -->
+  <g transform="translate(300, 150)">
+    <!-- Bulb -->
+    <circle cx="0" cy="-20" r="35" fill="none" stroke="#fbbf24" stroke-width="3"/>
+    <path d="M -25 20 Q -25 30 -15 30 L 15 30 Q 25 30 25 20" fill="none" stroke="#fbbf24" stroke-width="2"/>
+    
+    <!-- Inner glow -->
+    <circle cx="0" cy="-20" r="25" fill="#fbbf24" opacity="0.15"/>
+    
+    <!-- Light rays -->
+    <line x1="0" y1="-60" x2="0" y2="-80" stroke="#fbbf24" stroke-width="2"/>
+    <line x1="42" y1="-35" x2="58" y2="-51" stroke="#fbbf24" stroke-width="2"/>
+    <line x1="50" y1="0" x2="70" y2="0" stroke="#fbbf24" stroke-width="2"/>
+    <line x1="42" y1="35" x2="58" y2="51" stroke="#fbbf24" stroke-width="2"/>
+    <line x1="-42" y1="-35" x2="-58" y2="-51" stroke="#fbbf24" stroke-width="2"/>
+    <line x1="-50" y1="0" x2="-70" y2="0" stroke="#fbbf24" stroke-width="2"/>
+    <line x1="-42" y1="35" x2="-58" y2="51" stroke="#fbbf24" stroke-width="2"/>
+  </g>
+  
+  <!-- Innovation areas around the bulb -->
+  <!-- AI/ML -->
+  <g transform="translate(100, 100)">
+    <rect x="0" y="0" width="80" height="60" fill="none" stroke="#8b5cf6" stroke-width="2" rx="6"/>
+    <text x="15" y="20" font-size="14" fill="#8b5cf6" font-weight="600">AI &</text>
+    <text x="10" y="40" font-size="14" fill="#8b5cf6" font-weight="600">Machine</text>
+    <text x="15" y="55" font-size="12" fill="#8b5cf6">Learning</text>
+  </g>
+  
+  <!-- IoT -->
+  <g transform="translate(420, 100)">
+    <rect x="0" y="0" width="80" height="60" fill="none" stroke="#ec4899" stroke-width="2" rx="6"/>
+    <text x="20" y="20" font-size="14" fill="#ec4899" font-weight="600">IoT &</text>
+    <text x="10" y="40" font-size="14" fill="#ec4899" font-weight="600">Connected</text>
+    <text x="20" y="55" font-size="12" fill="#ec4899">Devices</text>
+  </g>
+  
+  <!-- Cloud -->
+  <g transform="translate(100, 340)">
+    <rect x="0" y="0" width="80" height="60" fill="none" stroke="#10b981" stroke-width="2" rx="6"/>
+    <text x="15" y="20" font-size="14" fill="#10b981" font-weight="600">Cloud</text>
+    <text x="15" y="40" font-size="14" fill="#10b981" font-weight="600">Native</text>
+    <text x="25" y="55" font-size="12" fill="#10b981">Apps</text>
+  </g>
+  
+  <!-- Blockchain -->
+  <g transform="translate(420, 340)">
+    <rect x="0" y="0" width="80" height="60" fill="none" stroke="#4a90e2" stroke-width="2" rx="6"/>
+    <text x="10" y="20" font-size="14" fill="#4a90e2" font-weight="600">Block</text>
+    <text x="15" y="40" font-size="14" fill="#4a90e2" font-weight="600">chain &</text>
+    <text x="20" y="55" font-size="12" fill="#4a90e2">Web3</text>
+  </g>
+  
+  <!-- Connection lines to center -->
+  <line x1="180" y1="130" x2="270" y2="160" stroke="#8b5cf6" stroke-width="1.5" opacity="0.4"/>
+  <line x1="420" y1="130" x2="330" y2="160" stroke="#ec4899" stroke-width="1.5" opacity="0.4"/>
+  <line x1="180" y1="370" x2="270" y2="340" stroke="#10b981" stroke-width="1.5" opacity="0.4"/>
+  <line x1="420" y1="370" x2="330" y2="340" stroke="#4a90e2" stroke-width="1.5" opacity="0.4"/>
+</svg>
